@@ -32,6 +32,11 @@ h2{
 	margin-left: 57px;
 
 }
+a{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	color: #fff;
+}
 .directions{
 	margin-top: 337px;
 	margin-left: 5px;
