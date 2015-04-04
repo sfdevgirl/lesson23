@@ -49,12 +49,13 @@ ol{
 	margin-top: 40px;
 }
 .container{
-	height: 583px;
+	min-height: 583px;
 	width: 467px;
 	border: 2px solid black;
 	border-radius: 5px;
 	margin-left: 200px;
 	margin-top: 70px;
+	padding-bottom: 10px;
 }
 select{
 	width: 374px;
@@ -80,21 +81,41 @@ ul{
 	font-family: 'Nunito', sans-serif;
 	font-size: 18px;
 	margin-top: 57px;
-	margin-left: 22px;
+	margin-left: 22px;;
 }
 ul li{
 	margin-bottom: 3px;
-	letter-spacing: 1px;;
+	letter-spacing: 1px;
+	font-family: 'Quicksand', sans-serif;
+
 }
-textarea{
+.text{
 	border-radius: 4px;
 	margin-top: 359px;
 	margin-left: 17px;
 	height: 28px;
-	width: 418px;
+	width: 299px;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
 	padding: 5px;
 	padding-left: 10px;
+	background-color: #5C3317;
+	color: #63D1F4;
+	border: none;
+}
+.add{
+	border-radius: 4px;
+	width: 85px;
+	height: 26px;
+	margin-left: 10px;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #5C3317;
+	color: #63D1F4;
+	border: none;
+}
+.list{
+	list-style-type: none;
 
+}
+.checkoff{
 }
