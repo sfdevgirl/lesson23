@@ -1,11 +1,13 @@
 $( document ).ready(function() {
 	$(".add").on('click', function() {
 		var newTodo = $('.new-todo input').val();
-		var newListItem = '<li>' + newTodo + '</li><button class="checkoff"></button><button class="delete"></button>';
+		var newListItem = '<li>' + newTodo + '<input type="checkbox"><button class="delete">X</button></li>';
 		$('.list').append(newListItem);
 		$('.new-todo input').val('');
 	})
-	$(".delete").on('click', function(){
-		('li').remove();
+	$(".list li .delete").on('click', function(){
+		console.log("hello");
+		var listItem = $(this).parent();
+		listItem.remove();
 	})
 });
