@@ -1,8 +1,7 @@
 body{
-	width: 100%;
-	height:100%;
-	margin: 0;
-	overflow: hidden;
+	
+	width:100%;
+	margin:0;; 
 	
 }
 .side{
@@ -105,8 +104,8 @@ ul li{
 	background-color: #5C3317;
 	color: #63D1F4;
 	border: none;
-	position: fixed;
-	top: 672px;
+	position: relative;
+	
 }
 .add{
 	border-radius: 4px;
@@ -117,9 +116,8 @@ ul li{
 	background-color: #5C3317;
 	color: #63D1F4;
 	border: none;
-	position: fixed;
-	top: 681px;
-	right: 367px;
+	position: relative;
+	
 }
 .list{
 	list-style-type: none;
